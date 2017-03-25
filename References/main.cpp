@@ -136,6 +136,7 @@ int main() {
 	catch (std::exception e) {
 		cout << e.what() << std::endl;
 	}
+
 	std::cin.get();
 	return EXIT_SUCCESS;
 }
